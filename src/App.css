@@ -1,0 +1,115 @@
+.App {
+  font-family: 'UTM Times';
+  font-weight: 400;
+  font-size: 17.5px;
+  text-align: justify;
+  color: #4B4B4B;
+  background-color: #FFFAEA;
+  min-height: 100vh;
+}
+
+.header__image {
+  width: 100%;
+}
+
+.primary-header {
+  font-family: 'iCielBC Cubano';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #8B171A;
+}
+
+.header-text {
+  margin-top: 20px;
+}
+
+.query-time {
+  font-style: italic;
+  font-size: 14px;
+  line-height: 18px;
+  color: #5B5A59;
+}
+
+.gold-plate {
+  width: 100%;
+}
+
+.query-area {
+  padding: 0 11px;
+}
+
+.query-area__price {
+  display: flex;
+  margin: 20px 0 40px 0;
+}
+
+.query-area__price-btn {
+  color: #FFFFFF;
+  font-family: "Roboto";
+  flex: 1 1 50%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.query-area__price-btn div {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  z-index: 2;
+}
+
+.query-area__price-btn img {
+  position: absolute;
+}
+
+.query-area__price-btn b {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+  z-index: 2;
+}
+
+.product-info-table {
+  color: #615E5E;
+  width: 100%;
+}
+
+.property {
+  background: #8B171A;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding: 26px 0;
+  text-align: center;
+  margin-top: 22px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #8B171A;
+  border-collapse: collapse;
+}
+
+tr td:first-child {
+  padding: 8px 5px 8px 17px;
+}
+
+tr td:last-child {
+  padding: 8px 5px 8px 27px;
+}
+
+.padding-20 {
+  padding: 0 20px;
+}

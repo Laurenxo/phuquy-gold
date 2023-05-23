@@ -1,13 +1,60 @@
+@font-face {
+  font-family: 'UTM Times';
+  src: url('./fonts/UtmTimes-xOlr.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UTM Times';
+  src: url('./fonts/Utmtimesbold-pjO1.ttf') format('truetype');
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UTM Times';
+  src: url('./fonts/UtmtimesboldItalic-DB89.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'UTM Times';
+  src: url('./fonts/UtmtimesboldItalic-DB89.ttf') format('truetype');
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'iCielBC Cubano';
+  src: url('./fonts/iCielBCCubano-Normal.otf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'UTM Times','Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 17.5px;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+h1 {
+  margin-block-start: 0;
+  margin-block-end: 0;  
 }
