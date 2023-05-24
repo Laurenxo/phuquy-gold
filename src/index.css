@@ -22,7 +22,7 @@
 
 @font-face {
   font-family: 'UTM Times';
-  src: url('./fonts/UtmtimesboldItalic-DB89.ttf') format('truetype');
+  src: url('./fonts/Utmtimesitalic-A91M.ttf') format('truetype');
   font-style: italic;
   font-display: swap;
 }
@@ -41,19 +41,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-size: 17.5px;
-}
 
-@media only screen and (min-width: 576px) { 
-  body {
-    font-size: 18px;
-  }
-}
-
-@media only screen and (min-width: 786px) { 
-  body {
-    font-size: 25px;
-  }
 }
 
 code {
@@ -72,5 +60,7 @@ h1, h2, h3 {
 }
 
 ul {
-  padding-inline-start: 20px;
+  padding-inline-start: 0;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }

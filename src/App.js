@@ -1,12 +1,13 @@
 import './App.css';
-import headerImg from "./images/header.svg";
-import goldPlateImg from "./images/gold-plate.svg";
-import priceBg from "./images/price-bg.svg";
-import goldCoinImg from "./images/gold-coin.svg";
+import headerImg from "./images/header.png";
+import goldPlateImg from "./images/gold-plate.png";
+import priceBg from "./images/price-bg.png";
 import shopImg from "./images/shop.svg";
-import logoImg from "./images/logo.svg";
+import logoImg from "./images/logo.png";
 import bctImg from "./images/bo-cong-thuong.svg";
-import desktopHeader from "./images/desktop-header.svg";
+import desktopHeader from "./images/desktop-header.png";
+import frontCoin from "./images/front-coin.png";
+import backCoin from "./images/back-coin.png";
 
 function App() {
   return (
@@ -34,23 +35,28 @@ function App() {
       <section className='query-area query-area__content'>
         <img src={goldPlateImg} alt="Vàng thần tài Phú Quý" className='gold-plate' />
         <div className='query-area__right-block'>
-          <p className='query-time'>
-            Tra cứu vào lúc: 19/05/2023 16:00
-          </p>
+          
           <div className='query-area__price'>
             <div className='query-area__price-btn'>
               <img src={priceBg} alt="" />
-              <div>GIÁ MUA VÀO</div>
-              <b>54.000.000đ</b>
+              <div className='query-area__price-content'>
+                <div>GIÁ MUA VÀO</div>
+                <b>54.000.000đ</b>
+              </div>
             </div>
 
             <div className='query-area__price-btn'>
               <img src={priceBg} alt="" />
-
-              <div>GIÁ BÁN RA</div>
-              <b>55.000.000đ</b>
+              <div className='query-area__price-content'>
+                <div>GIÁ BÁN RA</div>
+                <b>55.000.000đ</b>
+              </div>
             </div>
           </div>
+
+          <p className='query-time'>
+            Tra cứu vào lúc: 19/05/2023 16:00
+          </p>
         </div>
       </section>
 
@@ -120,10 +126,20 @@ function App() {
           bình an đời đời.
         </p>
 
-        <img src={goldCoinImg} alt='Thần tài Phú Quý' />
+        <div className='signification__images'>
+          <div className='signification__coin  signification__coin--front'>
+            <img src={frontCoin} alt="" />
+            <div>Mặt trước</div>
+          </div>
+
+          <div className='signification__coin'>
+            <img src={backCoin} alt="" />
+            <div>Mặt sau</div>
+          </div>
+        </div>
       </section>
 
-      <section className='highlights query-area'>
+      <section className='signification highlights query-area'>
         <h2 className='secondary-header'>Điểm nổi bật của sản phẩm:</h2>
         <ul>
           <li>Sản phẩm được kiểm định bởi VGV LAB Trung tâm
@@ -156,7 +172,7 @@ function App() {
       <section className='company-info'>
         <div className='company-info__left-block'>
           <img src={logoImg} alt="Logo Phú Quý" />
-          <h3 className='ternery-header'>TẬP ĐOÀN VÀNG BẠC ĐÁ QUÝ PHÚ QUÝ</h3>
+          <h3 className='ternery-header'>CÔNG TY CỔ PHẦN ĐẦU TƯ VÀNG PHÚ QUÝ</h3>
 
           <ul>
             <li>Cửa hàng    : 30 Trần Nhân Tông, Hai Bà Trưng, Hà Nội</li>
