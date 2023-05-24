@@ -160,12 +160,12 @@ function App() {
         <div>
           <h2><b>Hệ thống cửa hàng:</b></h2>
           <p>* Số 30 Trần Nhân Tông, Quận Hai Bà Trưng, Hà Nội<br />
-            Điện thoại liên hệ: (024) 3944 7846</p>
+            Điện thoại liên hệ: (024)39447846</p>
           <p>* Số 329 Cầu Giấy, Quận Cầu Giấy, Hà Nội<br />
-            Điện thoại liên hệ: 086 980 9866</p>
+            Điện thoại liên hệ: 0869809866</p>
           <p>* Văn phòng đại diện TP.HCM: 171-175 Hàm Nghi,
             Phường Nguyễn Thái Bình, Quận 1, TP.HCM<br />
-            Điện thoại liên hệ: 84947630880</p>
+            Điện thoại liên hệ: 0947630880</p>
         </div>
       </section>
 
@@ -183,8 +183,8 @@ function App() {
 
         <div className='company-info__right-block'>
           <b className='company-info__hotline'>
-            HOTLINE VÀNG: 0243 944 7846<br />
-            HOTLINE BẠC: 09 1111 3333
+            HOTLINE VÀNG: 02439447846<br />
+            HOTLINE BẠC: 0911113333
           </b>
 
           <ul className='company-info__economy'>
