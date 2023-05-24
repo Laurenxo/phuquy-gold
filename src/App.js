@@ -54,7 +54,7 @@ function App() {
         </div>
       </section>
 
-      <section >
+      <section className='product-info'>
         <table className='product-info-table'>
           <tbody>
             <tr>
@@ -174,7 +174,7 @@ function App() {
           <ul className='company-info__economy'>
             <li>Công ty Cổ phần Đầu tư Vàng Phú Quý</li>
             <li>MST: 0102617088</li>
-            <li>Trụ sở chính: Số 30 Trần Nhân Tông, Phường Nguyễn Du,
+            <li>Trụ sở chính: Số 30 Trần Nhân Tông, Phường Nguyễn Du, <br />
               Quận Hai Bà Trưng, Thành phố Hà Nội, Việt Nam</li>
           </ul>
         </div>

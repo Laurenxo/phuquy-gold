@@ -156,6 +156,18 @@
   margin: 0 auto 6px auto;
 }
 
+.company-info__left-block ul {
+  display: none;
+}
+
+.product-info {
+  padding: 0 10px;
+}
+
+.company-info__economy br {
+  display: none;
+}
+
 .company-info__hotline {
   font-weight: 700;
   font-size: 20px;
@@ -274,10 +286,12 @@ tr td:last-child {
   .query-area__content {
     display: flex;
     align-items: center;
+    padding: 0 83px;
   }
 
   .query-area__right-block {
     flex-shrink: 0;
+    min-width: 372px;
   }
 
   .query-area__price-btn div {
@@ -305,5 +319,166 @@ tr td:last-child {
 
   .gold-plate {
     width: auto;
+    flex-grow: 1;
+  }
+
+  .product-info-table {
+    max-width: 590px;
+    margin: 0 auto;
+    font-size: 25px;
+  }
+
+  .signification {
+    padding: 0 160px;
+    font-size: 25px;
+  }
+
+  .signification img {
+    display: block;
+    margin: 30px auto 0;
+    width: 600px;
+  }
+
+  .highlights {
+    padding: 0 160px;
+    font-size: 25px;
+  }
+
+  .store div {
+    font-size: 25px;
+    line-height: 43px;
+  }
+  .query-area__right-block {
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  .query-area__right-block p {
+    order: 2;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .query-area__price {
+    order: 1;
+  }
+
+  .store p {
+    margin-bottom: 25px;
+  }
+
+  .property {
+    font-size: 41px;
+    line-height: 54px;
+  }
+
+  .store {
+    padding: 124px 79px 124px 203px;
+    font-size: 25px;
+
+  }
+
+  .secondary-header {
+    font-size: 35px;
+    line-height: 46px;
+  }
+
+  .store img {
+    width: 120px;
+    margin-right: 128px;
+  }
+
+  .footer {
+    justify-content: flex-end;
+    padding-right: 120px;
+  }
+
+  .company-info ul {
+    list-style: none;
+    padding-inline-start: 0;
+    font-size: 18px;
+  }
+
+  .company-info__left-block {
+    margin-right: 51px;
+    width: 50%;
+  }
+
+  .company-info__hotline {
+    text-align: left;
+  }
+  
+}
+
+@media only screen and (min-width: 786px) {
+  .company-info__left-block ul {
+    display: block;
+  }
+
+  .query-area__content {
+    padding: 0 10px;
+  }
+
+  .company-info {
+    display: flex;
+    padding: 0 130px;
+    flex: 1 1 50%;
+  }
+
+  .signification {
+    padding: 0 30px;
+  }
+
+  .highlights {
+    padding: 0 30px;
+  }
+
+  .store {
+    padding: 124px 79px 124px 203px;
+  }
+
+  .store div {
+    font-size: 18px;
+    padding: 10px;
+    line-height: 20px;
+  }
+
+  .store h2 {
+    margin-bottom: 15px;
+  }
+
+  .store p {
+    margin-bottom: 10px;
+  }
+
+  .company-info {
+    padding: 0 30px;
+  }
+
+  .company-info__hotline {
+    font-size: 25px;
+  }
+
+  .ternery-header {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .company-info__left-block ul {
+    margin-left: 100px;
+  }
+
+  .store img {
+    margin-right: 20px;
+  }
+
+  .company-info ul {
+    font-size: 25px;
+  }
+
+  .company-info__hotline {
+    font-size: 28px;
   }
 }
